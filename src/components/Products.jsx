@@ -66,7 +66,7 @@ const Products = () => {
                 return (
                   <tr className={`${el.id}`}>
                     <td>{i + 1}</td>
-                    <td>{el.name}</td>
+                    <td>{el.Name}</td>
                     <td>{el.Manufacturer}</td>
                     <td>{el.Description}</td>
                     <td>{el.Review}</td>
